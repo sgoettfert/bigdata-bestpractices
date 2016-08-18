@@ -1,4 +1,3 @@
-# bigdata-bestpractices
 Big Data Best Practices
 ===
 
