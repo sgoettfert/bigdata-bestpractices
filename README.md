@@ -33,4 +33,4 @@ Run the project
 -----
 
 Now you should be able to run the example project. Open a Bash, cd into the project root and type:
-	$ ./exec_project.sh
+    $ ./exec_project.sh
