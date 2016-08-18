@@ -1,0 +1,12 @@
+{
+"namespace": "com.bigdata.sample",
+"type": "record",
+"name": "UserRecord",
+"fields": [
+	{"name": "userId", "type": "long"},
+	{"name": "age", "type": "int"},
+	{"name": "gender", "type": "string"},
+	{"name": "occupation", "type": "string"},
+	{"name": "zip", "type": "string"}
+]
+}

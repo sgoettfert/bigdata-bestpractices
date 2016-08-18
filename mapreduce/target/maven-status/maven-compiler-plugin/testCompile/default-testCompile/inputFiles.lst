@@ -1,0 +1,4 @@
+/home/ubuntu/git/mapreduce/src/test/java/com/bigdata/mapreduce/mapper/FilterMapperTest.java
+/home/ubuntu/git/mapreduce/src/test/java/com/bigdata/mapreduce/mapper/ByMovieMapperTest.java
+/home/ubuntu/git/mapreduce/src/test/java/com/bigdata/mapreduce/mapper/ByUserMapperTest.java
+/home/ubuntu/git/mapreduce/src/test/java/com/bigdata/mapreduce/writable/UserWritableTest.java

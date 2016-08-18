@@ -1,0 +1,12 @@
+PATH_DATA = /user/bigdata/data
+PATH_1_1_SAMPLE = /user/bigdata/result_1_understanding/1_sample
+PATH_1_2_TYPE = /user/bigdata/result_1_understanding/2_type
+PATH_1_3_NOT_NULL = /user/bigdata/result_1_understanding/3_not_null_verification
+PATH_1_4_TYPE = /user/bigdata/result_1_understanding/4_type_verification
+PATH_1_5_REGEX = /user/bigdata/result_1_understanding/5_regex_verification
+PATH_2_1_NULL = /user/bigdata/result_2_preparation/1_null
+PATH_2_2_REGEX = /user/bigdata/result_2_preparation/2_regex
+PATH_2_3_RANGE = /user/bigdata/result_2_preparation/3_range
+PATH_2_4_DUPLICATES = /user/bigdata/result_2_preparation/4_duplicates
+PATH_2_5_TITLES = /user/bigdata/result_2_preparation/5_titles
+PATH_PARTITIONER = /user/bigdata/output/pig/partitioner

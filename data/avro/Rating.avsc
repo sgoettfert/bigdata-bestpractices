@@ -1,0 +1,11 @@
+{
+"namespace": "com.bigdata.sample",
+"type": "record",
+"name": "Rating",
+"fields": [
+	{"name": "itemId", "type": "long"},
+	{"name": "rating", "type": "int"},
+	{"name": "timestamp",  "type": "long"},
+	{"name": "user", "type": "com.bigdata.sample.UserRecord"}
+]
+}
