@@ -1,4 +1,4 @@
-Big Data Best Practices
+Big Data Best Practices - Example Project
 ===
 
 Installation prerequisites
