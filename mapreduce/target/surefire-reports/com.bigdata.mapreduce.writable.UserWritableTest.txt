@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.bigdata.mapreduce.writable.UserWritableTest
 -------------------------------------------------------------------------------
-Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.318 sec - in com.bigdata.mapreduce.writable.UserWritableTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.614 sec - in com.bigdata.mapreduce.writable.UserWritableTest

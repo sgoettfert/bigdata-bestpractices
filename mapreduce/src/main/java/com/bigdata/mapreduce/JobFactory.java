@@ -53,7 +53,7 @@ public class JobFactory {
 	public static final String INPUT_DATA = "result_2_preparation/4_duplicates/rating";
 	public static final String INPUT_USER = "data/user";
 	
-	public static final String RESULT = "result_3/mapreduce";
+	public static final String RESULT = "result_3_modeling/mapreduce";
 	public static final String OUTPUT = "output_mapreduce_jobs/";
 	public static final String OUTPUT_INTER = "output_inter";
 	
