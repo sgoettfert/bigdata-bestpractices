@@ -37,3 +37,8 @@ Now you should be able to run the example project. Open a Bash, cd into the proj
 ```
 $ ./exec_project.sh
 ```
+
+View the results
+-----
+
+The results of the project are structured according to the CRISP-DM model and are available on HDFS in the directory "/user/bigdata/".
