@@ -59,4 +59,5 @@ cd ../sqoop
 . exec_sqoop_export.sh
 
 echo ""
+echo ""
 echo "Finished!"
