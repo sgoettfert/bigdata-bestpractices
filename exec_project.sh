@@ -51,7 +51,7 @@ hadoop jar target/mapreduce-1.0.0-SNAPSHOT.jar com.bigdata.mapreduce.App inverte
 # Launch Spark job
 echo "Running Spark job.."
 cd ../spark
-spark-submit --class com.bigdata.scala.App --master spark://ubuntu-VirtualBox:7077 target/spark-1.0.0-SNAPSHOT.jar inverted hdfs://localhost:9000/$MY_HDFS_BASE/result_2_preparation/5_titles
+spark-submit --class com.bigdata.spark.App --master spark://ubuntu-VirtualBox:7077 target/spark-1.0.0-SNAPSHOT.jar inverted hdfs://localhost:9000/$MY_HDFS_BASE/result_2_preparation/5_titles
 
 # Export to MySQL DB with Sqoop
 echo "Running Sqoop to export result data to MySQL DB.."
