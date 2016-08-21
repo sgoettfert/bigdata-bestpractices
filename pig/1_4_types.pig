@@ -17,7 +17,7 @@ DEFINE get_types(raw, column, type) RETURNS result {
 data_rating = LOAD '$PATH_DATA/data' AS (userId:chararray, itemId:chararray, rating:chararray, timestamp:chararray);
 types_rating_userId = get_types(data_rating, 'userId', 'int');
 types_rating_itemId = get_types(data_rating, 'itemId', 'int');
-types_rating_rating = get_types(data_rating, 'rating', 'int');
+types_rating_rating = get_types(data_rating, 'rating', 'double');
 types_rating_timestamp = get_types(data_rating, 'timestamp', 'int');
 result_rating = UNION types_rating_userId, types_rating_itemId, types_rating_rating, types_rating_timestamp;
 result_rating_ordered = ORDER result_rating BY $0;
