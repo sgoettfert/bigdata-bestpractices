@@ -28,7 +28,6 @@ public class ByUserMapper extends Mapper<LongWritable, Text, LongWritable, LongA
 					new LongArrayWritable(rating.getArrayByUser()));
 			
 			context.getCounter(RECORDS.WELLFORMED).increment(1);
-			context.getCounter("Number of ratings", Long.toString(rating.getItemId())).increment(1);
 			
 		} else {
 			context.getCounter(RECORDS.MALFORMED).increment(1);

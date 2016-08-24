@@ -28,7 +28,7 @@ public class BinningMapper extends Mapper<LongWritable, Text, LongWritable, Text
 		
 		if(fields.length == 5) {
 			output.write("occupation",
-					new LongWritable(Long.parseLong(fields[1])),
+					new LongWritable(Long.parseLong(fields[0])),
 					value,
 					fields[3]);
 		} else {
